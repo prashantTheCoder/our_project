@@ -1,0 +1,714 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Bihar-logo{
+    height: 100px;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    /* min-height: 100vh; */
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Budhha1.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px 15px;
+    
+  
+  
+
+    
+    /* box-shadow: 10px 5px 5px rgba(156, 148, 148, 0.61); */
+    /* background-color: whitesmoke; */
+    /* border: 2px solid rgba(128, 128, 128, 0.674);
+    border-radius: 60px; */
+    /* margin-left: 5px; */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+   
+    
+}
+nav{
+    height: 80px;
+    /* min-width: 40vw; */
+    width: 40vw;
+    background-color: #ffffffa3;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+nav ul li a:hover{
+    color: #ff5653;
+    font-size: 27px;
+}
+.welcome-msg-container{
+    height: 170px;
+    width: 65vw;
+}
+.welcome-msg{
+    font-size: 3.5vw;
+    letter-spacing: 7px;
+    font-family: monospace;
+    font-weight: 700;
+    border-right: 5px solid red;
+
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation:typing 4s steps(27),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{width: 0;}
+}
+span{
+    color: orangered;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    z-index: 2;
+}
+ul li:hover .dropdown {
+    display: block;
+}
+.dropdown li {
+    display: block;
+    padding: 10px 0;
+}
+.dropdown-menu{
+    color: #ff5653;
+}
+.dropdown-menu:hover{
+    color: black;
+}
+
+ul li:hover .dropdown-menu-Patna {
+    display: block;
+}
+.dropdown-menu-Patna li {
+    display: block;
+    padding: 10px 0;
+}
+.dropdown-menu-Patna{
+    color: white;
+}
+.dropdown-menu-Patna:hover{
+    color: yellow;
+}
+.Location{
+    flex: 1;
+}
+.search-bar{
+    background-color: #fff;
+    width: 50vw;
+    height: 70px;
+    margin:10px ;
+    
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+    margin-top: -122px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0));
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    height: 55px;
+    width: 55px;
+    border: none;
+    background-color: orangered;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-left: 168px;
+}
+.search-for{
+    margin-left: 240px;
+    color:white;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-bar form label{
+    font-weight: 700;
+}
+#search-icon{
+    margin-top: 5px;
+}
+#header-text{
+    position: absolute;
+    color: bisque;
+    font-size: 25px;
+    width: 50vw;
+    margin-top: 150px;
+    height: 150px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.profile{
+    margin-top: 18px;
+    height: 50px;
+}
+.action-bar{
+    width: 333px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#profile{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.signup{
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 17px;
+    background-color:orangered;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+}
+#profile:hover{
+    background-color: rgb(255, 0, 102);
+}
+#Budhha-img{
+    height: 70vh;
+    width: 90vw;
+    margin-left: 70px;
+    margin-top: 8px;
+    border-radius: 8px;
+    /* box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.781); */
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.842));
+}
+#moving{
+    font-size: xx-large;
+    color: rgb(255, 77, 0);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.signup:hover{
+    background-color: red;
+}
+.signup:active{
+    background-color: teal;
+}
+
+
+.Bihar{
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+}
+#Patna-text{
+    margin-left: 85px;
+    color: black;
+    
+}
+h1{
+  margin-top: 50px;
+    font-size: 2.625rem;
+}
+.photos{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+/* .Bihar:hover{
+   height: 230px;
+   filter: brightness(1);
+} */
+.Bihar-images{
+    height: 245px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 350px;
+    /* border: 2px solid rgba(0, 0, 0, 0.338); */
+    border: none;
+    border-radius: 8px;
+
+
+}
+.Patna{
+    position: absolute;
+    color: orangered;
+    text-align: center;
+    margin-left: 119px;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.dest{
+    margin-bottom: -7px;
+}
+p{
+    font-size: 17px;
+    color: aliceblue;
+   
+}
+/* footer{
+    display: flex;
+    background-color: rgba(131, 160, 172, 0.358);
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+} */
+.footer-container{
+    margin-top: 15px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.footer-items p{
+    margin: 12px;
+    color: white
+}
+.search-icon{
+    position: fixed;
+    height: 20px;
+}
+#search-img{
+    margin-top: 5px;
+}
+#About-Bihar{
+    color: black;
+    background-color: #6ba908;
+}
+#Bihar-map{
+    height: 100%;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 88px;
+}
+.Map-container{
+    height: 300px;
+    width: 400px;
+    margin-left: 15px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.619);
+    width: 99vw;
+    height: 320px;
+    margin-top: 100px;
+}
+.search-for span{
+    color: #ebecf0;
+}
+
+
+/* .container{
+    padding: 2rem;
+} */
+ /* .container{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+ }
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: auto;
+    
+} */
+/* .slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem  -0.75rem hsla(0,0%,0%,0.25%);
+    /* border-radius: 10px; */
+   
+  
+/* 
+} */
+/* .slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+    opacity: 1;
+} */
+#Bihar-darshanamm{
+    height: 50px;
+}
+.About-Nalanda-University{
+    height: 440px;
+    width: 90vw;
+    margin-top: 100px;
+    margin-left: 55px;
+    font-size: larger;
+    word-spacing: 2px;
+    color: rgba(0, 0, 0, 0.769);
+    background-color: rgba(240, 248, 255, 0.687);
+}
+.New-Nalanda-University{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 100vw;
+}
+#New-Nalanda-img{
+    height: 300px;
+    border-radius: 15px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+    filter: brightness(.5);
+}
+#NewNU{
+    margin-top: 100px;
+    margin-left: 0px;
+    color: Black;
+}
+
+.social-media{
+    height: 50px;
+}
+.social-media:hover{
+    height: 55px;
+}
+#Your-state{
+    height: 40px;
+    width: 100px;
+    margin-top: -10px;
+    font-size: large;
+    color: grey;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#New-Nalanda-University-text{
+    position: absolute;
+    z-index: 1;
+    /* margin-right: 772px; */
+    left: 7%;
+    top: 42%;
+    color: #fff;
+    font-size: 40px;
+}
+#New-Nalanda-University-text p{
+    margin-left: 61px;
+    padding: 7px;
+}
+
+.bag-pack{
+    height: 100%;
+    position: absolute;
+    left: 5%;
+}
+#bag-pack2{
+    height: 100%;
+    position: absolute;
+    left: 15%;
+}
+.header-img{
+    position: relative;
+    width: 70vw;
+    border-radius: 50px;
+    margin-bottom: 15%;
+    background-color: #ebecf0;
+}
+.menu-bar{
+    display: none;
+    color: #ebecf0;
+    margin-top: 15px;
+    font-size: 3vw;
+    margin-right: 0px;
+}
+.Patna span{
+    color: orangered;
+    margin-left: -67px;
+}
+
+@media (max-width:600px){
+    .welcome-msg{
+        display: none;
+        font-size: 2rem;
+        border-right: 2px solid red;
+    }
+    
+    .search-for {
+        margin-left: 80px;
+        font-size: 17vw;
+        margin-top: -60%;
+        color: #ebecf0;
+        font-weight: 500;
+    }
+    .menu-bar{
+        display: block;
+        margin-right: 0px;
+    }
+    nav{
+        display: none;
+    }
+    .signup{
+        margin-left: 40px;
+    }
+    .search-bar{
+        width: 100%;
+    }
+    .search-bar form button{
+        height: 55px;
+        width: 55px;
+        border: none;
+        background-color: orangered;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    header{
+        height: 139vh;
+        background-size: cover;
+        padding: 5px;
+        width: 150%;
+    }
+    .photos{
+        width: 130%;
+        
+    }
+    .Bihar-images{
+        width: 360px;
+        margin-left: 132px;
+    }
+  
+    .Explore h1{
+        margin-left: 60px;
+        font-weight: 100;
+        color: rgb(101, 96, 96);
+    }
+    .Explore{
+        width: 150%;
+    }
+    .search-for span{
+        font-weight: 400;
+        font-style: italic;
+        color: #ff5653;
+    }
+    
+    
+}
+.Arts-Culture{
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+    width: 100%;
+    /* background-color: #6ba908; */
+}
+.arts{
+    height: 100%;
+    width: 40%;
+   
+    /* background-color: red; */
+}
+.culture{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.arts img{
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 130px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+}
+.culture p{
+    color: grey;
+    font-size: 1.5vw;
+}
+.Arts-Culture1{
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+    width: 100%;
+    /* background-color: #6ba908; */
+}
+.culture1{
+    height: 100%;
+    width: 40%;
+   
+    /* background-color: red; */
+}
+.arts1{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.culture1 img{
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 130px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+}
+.arts1 p{
+    color: grey;
+    font-size: 1.5vw;
+}
+h1{
+    color: black;
+}
+.Arts-Culture2{
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+    width: 100%;
+    /* background-color: #6ba908; */
+}
+.arts2{
+    height: 78%;
+    width: 40%;
+   
+    /* background-color: red; */
+}
+.culture2{
+    height: 100%;
+    width: 50%;
+
+    /* background-color: yellow; */
+}
+.arts2 img{
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 130px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+}
+.culture2 p{
+    color: grey;
+    font-size: 1.5vw;
+    margin-top: 120px;
+}
+.Arts-Culture3{
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+    width: 100%;
+    /* background-color: #6ba908; */
+}
+.culture3{
+    height: 100%;
+    width: 40%;
+   
+    /* background-color: red; */
+}
+.arts3{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.culture3 img{
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 130px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+}
+.arts3 p{
+    color: grey;
+    font-size: 1.5vw;
+}
+.arts-culture{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 12px;
+}
+.arts-culture  p{
+    color: rgba(0, 0, 0, 0.635);
+}
+.madhubani-painting{
+    width: 350px;
+    height: 350px;
+}
+.madhubani-painting img{
+    position: absolute;
+    height: 100%;
+    left: 15%;
+    padding: 5px;
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+    
+    /* width: 100%; */
+}
+.about-madhubani-painting{
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    font-size: 2vw;
+    right: 10%;
+   
+}
+.about-madhubani-painting p{
+    font-size: 1.5rem;
+    
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.explore{
+    height: 50px;
+    width: 100vw;
+    background-color: aliceblue;
+}
+.explore h2{
+    color: rgb(202, 19, 19);
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+}
+p{
+    color: grey;
+    font-size: xx-large;
+}
+.About-container{
+    margin-top: 70px;
+    margin-left: 150px;
+    height: 400px;
+    width: 70vw;
+    box-shadow: 60px -16px teal;
+    border-radius: 7px;
+}
+p:hover{
+    color: red;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.explore h2:hover{
+    color: blueviolet;
+}
