@@ -59,6 +59,7 @@ nav ul li a:hover{
     width: 65vw;
 }
 .welcome-msg{
+    color: #ebecf0;
     font-size: 3.5vw;
     letter-spacing: 7px;
     font-family: monospace;
@@ -84,6 +85,8 @@ span{
 
 ul{
     list-style-type: none;
+    margin-left: 43px;
+    margin-top: 5px;
 }
 ul li{
     position: relative;
@@ -251,12 +254,12 @@ h1{
   margin-top: 50px;
     font-size: 2.625rem;
 }
-.photos{
+/* .photos{
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
-}
+} */
 
 
 /* .Bihar:hover{
@@ -287,11 +290,7 @@ h1{
 .dest{
     margin-bottom: -7px;
 }
-p{
-    font-size: 17px;
-    color: aliceblue;
-   
-}
+
 /* footer{
     display: flex;
     background-color: rgba(131, 160, 172, 0.358);
@@ -531,14 +530,11 @@ footer{
         padding: 5px;
         width: 150%;
     }
-    .photos{
-        width: 130%;
-        
-    }
-    .Bihar-images{
-        width: 360px;
+ 
+    /* .Bihar-images{
+        width: 500px;
         margin-left: 132px;
-    }
+    } */
   
     .Explore h1{
         margin-left: 60px;
@@ -553,162 +549,134 @@ footer{
         font-style: italic;
         color: #ff5653;
     }
+    .Bihar{
+        width: 500px;
+    }
+    .Patna{
+        margin-left: 150px;
+    }
     
     
 }
-.Arts-Culture{
-    display: flex;
-    /* justify-content: center; */
-    height: 300px;
-    width: 100%;
-    /* background-color: #6ba908; */
-}
-.arts{
-    height: 100%;
-    width: 40%;
-   
-    /* background-color: red; */
-}
-.culture{
-    height: 100%;
-    width: 50%;
-    /* background-color: yellow; */
-}
-.arts img{
-    height: 100%;
-    width: 60%;
-    border-radius: 10px;
-    margin-left: 130px;
-    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
-}
-.culture p{
-    color: grey;
-    font-size: 1.5vw;
-}
-.Arts-Culture1{
-    display: flex;
-    /* justify-content: center; */
-    height: 300px;
-    width: 100%;
-    /* background-color: #6ba908; */
-}
-.culture1{
-    height: 100%;
-    width: 40%;
-   
-    /* background-color: red; */
-}
-.arts1{
-    height: 100%;
-    width: 50%;
-    /* background-color: yellow; */
-}
-.culture1 img{
-    height: 100%;
-    width: 60%;
-    border-radius: 10px;
-    margin-left: 130px;
-    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
-}
-.arts1 p{
-    color: grey;
-    font-size: 1.5vw;
-}
-h1{
-    color: black;
-}
-.Arts-Culture2{
-    display: flex;
-    /* justify-content: center; */
-    height: 300px;
-    width: 100%;
-    /* background-color: #6ba908; */
-}
-.arts2{
-    height: 78%;
-    width: 40%;
-   
-    /* background-color: red; */
-}
-.culture2{
-    height: 100%;
-    width: 50%;
 
-    /* background-color: yellow; */
-}
-.arts2 img{
-    height: 100%;
-    width: 60%;
-    border-radius: 10px;
-    margin-left: 130px;
-    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
-}
-.culture2 p{
-    color: grey;
-    font-size: 1.5vw;
-    margin-top: 120px;
-}
-.Arts-Culture3{
+.Cuisines-container{
     display: flex;
     /* justify-content: center; */
     height: 300px;
     width: 100%;
     /* background-color: #6ba908; */
 }
-.culture3{
+.Cuisines{
     height: 100%;
     width: 40%;
    
     /* background-color: red; */
 }
-.arts3{
+.about-Cuisines{
     height: 100%;
     width: 50%;
     /* background-color: yellow; */
 }
-.culture3 img{
+.Cuisines img{
+    cursor: pointer;
     height: 100%;
     width: 60%;
-    border-radius: 10px;
     margin-left: 130px;
+    border-radius: 10px;
     filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
 }
-.arts3 p{
+.about-Cuisines p{
     color: grey;
-    font-size: 1.5vw;
+    font-size: 1.3rem;
 }
+
 .arts-culture{
-    position: relative;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    margin-top: 12px;
 }
-.arts-culture  p{
-    color: rgba(0, 0, 0, 0.635);
+.img-arts-culture{
+    width: 400px;
+    height: 300px;
 }
-.madhubani-painting{
-    width: 350px;
-    height: 350px;
-}
-.madhubani-painting img{
-    position: absolute;
+.img-arts-culture img{
+    /* position: absolute; */
+    cursor: pointer;
     height: 100%;
-    left: 15%;
+    width: 100%;
     padding: 5px;
+    margin-top: 30px;
     filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+    border-radius: 10px;
     
     /* width: 100%; */
 }
-.about-madhubani-painting{
-    position: absolute;
+.about-arts-culture{
+    /* position: absolute; */
     height: 350px;
     width: 400px;
     font-size: 2vw;
     right: 10%;
    
 }
-.about-madhubani-painting p{
-    font-size: 1.5rem;
-    
+.about-arts-culture p{
+    font-size: 1.3rem;
+    margin-top: 28px;
+}
+#rock_painting{
+    height: 300px;
+    width: 400px;
+    margin-right: 50px;
+}
+#rock_painting img{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+p{
+    color: grey;
+}
+
+h1{
+    color: black;
+}
+#sattu img{
+   margin-bottom: 20px;
+}
+.footer-items p:hover{
+    cursor: pointer;
+    color: #ff5653;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.hr-card{
+    height: 570px;
+    width: 47vw;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.hr-description{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 17px;
+    width: 45vw;
+    margin-left: 14px;
+}
+.hr-card img{
+    height: 350px;
+    width: 47vw;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 17px 18px;
+}
+body{
+    background-color: #c0c3d2;
 }
