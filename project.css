@@ -98,7 +98,6 @@ ul li{
     position: absolute;
     background-color: white;
     padding: 10px;
-    border-radius: 7px;
     border: 1px solid black;
     z-index: 2;
 }
@@ -291,14 +290,7 @@ h1{
     margin-bottom: -7px;
 }
 
-/* footer{
-    display: flex;
-    background-color: rgba(131, 160, 172, 0.358);
-    width: 100%;
-    height: 450px;
-    margin-top: 10px;
-} */
-.footer-container{
+/* .footer-container{
     margin-top: 15px;
     font-weight: bold;
     color: aliceblue;
@@ -339,7 +331,7 @@ footer{
     width: 99vw;
     height: 320px;
     margin-top: 100px;
-}
+} */
 .search-for span{
     color: #ebecf0;
 }
@@ -427,12 +419,12 @@ footer{
     color: Black;
 }
 
-.social-media{
+/* .social-media{
     height: 50px;
 }
 .social-media:hover{
     height: 55px;
-}
+} */
 #Your-state{
     height: 40px;
     width: 100px;
@@ -476,7 +468,6 @@ footer{
     background-color: #ebecf0;
 }
 .menu-bar{
-    display: none;
     color: #ebecf0;
     margin-top: 15px;
     font-size: 3vw;
@@ -487,7 +478,7 @@ footer{
     margin-left: -67px;
 }
 
-@media (max-width:600px){
+/* @media screen and (max-width:768px){
     .welcome-msg{
         display: none;
         font-size: 2rem;
@@ -531,10 +522,7 @@ footer{
         width: 150%;
     }
  
-    /* .Bihar-images{
-        width: 500px;
-        margin-left: 132px;
-    } */
+   
   
     .Explore h1{
         margin-left: 60px;
@@ -557,80 +545,59 @@ footer{
     }
     
     
-}
+} */
+
+
+
 
 .Cuisines-container{
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+        /* justify-content: center; */
     height: 300px;
-    width: 100%;
-    /* background-color: #6ba908; */
+    width: 100vw;
+    margin: 30px;
+    margin-left: 2%;
+    gap: 20px;
+
 }
 .Cuisines{
     height: 100%;
-    width: 40%;
-   
+    width: 50%;
+
     /* background-color: red; */
 }
 .about-Cuisines{
     height: 100%;
-    width: 50%;
-    /* background-color: yellow; */
+    width: 35%;
+    background-color: antiquewhite;
+    margin-right: 10%;
+    padding: 0px 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    
 }
 .Cuisines img{
     cursor: pointer;
     height: 100%;
     width: 60%;
-    margin-left: 130px;
     border-radius: 10px;
     filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+    margin-left: 13%;
 }
 .about-Cuisines p{
     color: grey;
     font-size: 1.3rem;
+    
 }
 
-.arts-culture{
-    display: flex;
-    justify-content: space-around;
-}
-.img-arts-culture{
-    width: 400px;
-    height: 300px;
-}
-.img-arts-culture img{
-    /* position: absolute; */
-    cursor: pointer;
-    height: 100%;
-    width: 100%;
-    padding: 5px;
-    margin-top: 30px;
-    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
-    border-radius: 10px;
-    
-    /* width: 100%; */
-}
-.about-arts-culture{
-    /* position: absolute; */
-    height: 350px;
-    width: 400px;
-    font-size: 2vw;
-    right: 10%;
-   
-}
-.about-arts-culture p{
-    font-size: 1.3rem;
-    margin-top: 28px;
-}
-#rock_painting{
-    height: 300px;
-    width: 400px;
-    margin-right: 50px;
-}
-#rock_painting img{
-    height: 100%;
-    width: 100%;
-    margin-top: 30px;
+
+/* Container2 */
+
+#Cuisines2 img{
+    width: 62%;
+    margin-left: 12%;
 }
 
 p{
@@ -658,25 +625,247 @@ h1{
 
 .hr-card{
     height: 570px;
-    width: 47vw;
+    width: 47%;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: white;
+    background-color: black;
+    margin: 5px;
+    max-width: 100%;
 }
 .hr-description{
     background-color: antiquewhite;
     border-radius: 10px;
     padding: 17px;
     width: 45vw;
-    margin-left: 14px;
+    
 }
 .hr-card img{
     height: 350px;
-    width: 47vw;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
     padding: 17px 18px;
 }
 body{
-    background-color: #c0c3d2;
+    background-color: white;
 }
+.menu-bar-items{
+    display: none;
+}
+.hr-card:hover{
+    filter: drop-shadow(0 25px 25px rgba(0, 0, 0, 0.756));
+}
+
+.Culture-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 65%;
+    margin-left: 0%;
+}
+.Culture{
+    width: 550px;
+    height: 350px;
+    margin: 15px;
+}
+.Culture-heading-container{
+    width: 60%;
+    margin-right: 38%;
+}
+.Culture img{
+    width: 100%;
+    height: 100%;
+}
+.about-Culture{
+    width: 450px;
+    height: 100%;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.619);
+    width: 99vw;
+    height: 300px;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.connect-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.84);
+}
+.connect-image{
+    height: 300px;
+}
+.form-container{
+    color: #ff5653;
+    font-size: 3rem;
+    margin: auto;
+}
+.form-container form input{
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    margin-left: 2px;
+    padding: 25px 73px;
+}
+
+.connect-image img{
+    height: 100%;
+    object-fit: cover;
+}
+.contacts{
+    color: white;
+}
+.contacts h2{
+    color: #ff5653;
+}
+
+
+
+
+/* Responsive design */
+
+@media (max-width:480px) {
+    header{
+        width: 180%;
+        height: 175vh;
+    }
+    nav{
+        display: none;
+    }
+    .signup{
+        margin-left: 5%;
+    }
+    .welcome-msg{
+        display: none;
+    }
+    .search-for{
+        font-size: 16vw;
+        margin-block-start: auto;
+        margin-left: 40vw;
+        margin-top: -50%;
+    }
+    .search-bar{
+        width: 144vw;
+        margin-top: -25vh;
+
+    }
+    .search-for span{
+        color: orangered;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .search-bar form button{
+        margin-left: 21%;
+    }
+    .Location{
+        width: 10px;
+    }
+    .Explore h1{
+        font-size: 15vw;
+    }
+    .Explore{
+        margin-left: 18%;
+        width: 155vw;
+    }
+    .card-container{
+      width: 160vw;
+    }
+    
+   .hr-description{
+    width: 95%;
+    margin-left: 8px;
+   }
+   .hr-description h1{
+    font-size: 1.5rem;
+   }
+   .hr-card{
+    width: 100%;
+    height: 97vh;
+    margin-left: 1%;
+    padding: 10px 20px;
+   }
+   .menu-bar-items{
+    display: block;
+   }
+   .Cuisines-container{
+    width: 176%;
+   }
+   .Cuisines{
+    width: 100%;
+    height: 127%;
+   }
+   .about-Cuisines{
+    width: 83%;
+    height: 116%;
+    margin-top: 7%;
+    margin-left: 9%;
+   }
+   .Cuisines img {
+    height: 100%;
+    width: 80%;
+    margin-left: 9%;
+   }
+   .Cuisines-heading{
+    width: 100vw;
+    font-size: 4rem;
+    margin-left: 25%;
+    color: white;
+   }
+   .Cuisines-heading-container{
+    background-color: black;
+    width: 178%;
+    margin-top: 5%;
+   }
+   #Cuisines2 img{
+    width: 81%;
+   }
+   .about-Cuisines p{
+    font-size: 1rem;
+   }
+   
+  .Culture-container{
+    margin-top: 720%;
+    width: 180vw;
+   }
+   .Culture-heading-container{
+    background-color: black;
+    width: 100%;
+    margin-top: 60vh;
+    margin-right: 0%;
+   }
+   .Culture-heading-container h1{
+    color: white;
+    margin-left: 27%;
+    font-size: 4rem;
+   }
+   .Culture{
+    margin-top: 5%;
+   }
+   .about-Culture{
+    width: 545px;
+   }
+   
+ 
+}
+
+
+.menu-bar-items ul li{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
